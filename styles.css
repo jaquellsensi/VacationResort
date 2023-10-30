@@ -1,0 +1,56 @@
+
+#selectedOptionsText {
+    white-space: pre-line;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+input[type="date"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(100% - 20px);
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#messageDiv {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+#costDetails {
+    white-space: pre-line;
+    font-size: 14px;
+}
+
